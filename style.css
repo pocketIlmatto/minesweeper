@@ -1,0 +1,40 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 18px Verdana;
+	color: #FFF;
+  	background: #CCC;
+}
+#GameBoard {
+	width: 150px;
+	height: 150px;
+	background-color: #adadad;
+    padding: 0px;
+    border: 2px solid #000;    
+}
+input[type='button']{
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+}
+input[type='button'].piece {
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: #d4b8b8;
+    display: inline-block;
+    float: left;    
+}
+input[type='button'].piece:highlighted, input[type='button'].piece.highlighted{
+    background-color: #eddddd;
+    border: 2px solid #d4b8b8;
+}
