@@ -19,3 +19,5 @@ Very basic minesweeper game created as an exercise to practice javascript, jQuer
 
 <a href="http://jsfiddle.net/zinzin/Y4aHU/">JSFiddle</a> - for some help with the jQuery portions and simplifying the css.
 
+####Deployment
+The app is currently being hosted on <a href="http://powerful-springs-9204.herokuapp.com/">heroku</a>!
